@@ -16,6 +16,6 @@ For further reference, please consider the following sections:
 
 * [GitHub](https://github.com/makifyigitt/KodluyoruzSpringBoot)
 
-```shell
+```sh
 docker
 ```
