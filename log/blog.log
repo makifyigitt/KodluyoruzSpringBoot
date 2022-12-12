@@ -4476,3 +4476,368 @@ Consider defining a bean of type 'java.util.logging.Logger' in your configuratio
 2022-12-12T16:26:49.165+03:00  INFO 10692 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2022-12-12T16:26:49.172+03:00  INFO 10692 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Started KodluyoruzSpringBootApplication in 0.736 seconds (process running for 3822.278)
 2022-12-12T16:26:49.174+03:00  INFO 10692 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-12-12T16:27:18.063+03:00  INFO 10692 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-9].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-12T16:27:18.063+03:00  INFO 10692 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-12T16:27:18.064+03:00  INFO 10692 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-12T16:39:00.262+03:00  INFO 10692 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2022-12-12T16:39:00.284+03:00  INFO 10692 --- [Thread-59] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-12T16:39:00.284+03:00  INFO 10692 --- [Thread-59] o.a.c.c.C.[Tomcat-9].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-12T16:39:00.288+03:00  INFO 10692 --- [Thread-59] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean bittikten sonra ben varım
+2022-12-12T16:39:00.289+03:00  INFO 10692 --- [Thread-59] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:39:00.290+03:00  INFO 10692 --- [Thread-59] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown initiated...
+2022-12-12T16:39:00.300+03:00  INFO 10692 --- [Thread-59] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown completed.
+2022-12-12T16:39:00.404+03:00  INFO 10692 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Starting KodluyoruzSpringBootApplication using Java 17.0.1 with PID 10692 (C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot\target\classes started by makif in C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot)
+2022-12-12T16:39:00.404+03:00  INFO 10692 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-12-12T16:39:00.926+03:00  INFO 10692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:39:00.926+03:00  INFO 10692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-12T16:39:00.928+03:00  INFO 10692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2022-12-12T16:39:00.936+03:00  INFO 10692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:39:00.937+03:00  INFO 10692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-12T16:39:00.937+03:00  INFO 10692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2022-12-12T16:39:01.109+03:00  INFO 10692 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-12T16:39:01.109+03:00  INFO 10692 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-12T16:39:01.109+03:00  INFO 10692 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-12T16:39:01.132+03:00  INFO 10692 --- [restartedMain] o.a.c.c.C.[Tomcat-9].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-12-12T16:39:01.132+03:00  INFO 10692 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 725 ms
+2022-12-12T16:39:01.182+03:00  INFO 10692 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Starting...
+2022-12-12T16:39:01.196+03:00  INFO 10692 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-18 - Added connection conn99: url=jdbc:h2:file:/.memory.persist/denemedb user=ROOT
+2022-12-12T16:39:01.197+03:00  INFO 10692 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Start completed.
+2022-12-12T16:39:01.197+03:00  INFO 10692 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/.memory.persist/denemedb'
+2022-12-12T16:39:01.257+03:00  INFO 10692 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-12T16:39:01.259+03:00  WARN 10692 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-12T16:39:01.270+03:00  INFO 10692 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-12T16:39:01.285+03:00  INFO 10692 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-12T16:39:01.285+03:00  INFO 10692 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:39:01.296+03:00  INFO 10692 --- [restartedMain] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean başlamadan önce ben varım
+2022-12-12T16:39:01.325+03:00  WARN 10692 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-12T16:39:01.945+03:00  INFO 10692 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-12T16:39:01.950+03:00  INFO 10692 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-12T16:39:01.982+03:00  INFO 10692 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-12T16:39:01.994+03:00  INFO 10692 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Started KodluyoruzSpringBootApplication in 1.627 seconds (process running for 4555.1)
+2022-12-12T16:39:01.999+03:00  INFO 10692 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-12-12T16:46:03.032+03:00  INFO 10692 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-12T16:46:03.043+03:00  INFO 10692 --- [Thread-63] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-12T16:46:03.047+03:00  INFO 10692 --- [Thread-63] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean bittikten sonra ben varım
+2022-12-12T16:46:03.047+03:00  INFO 10692 --- [Thread-63] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:46:03.048+03:00  INFO 10692 --- [Thread-63] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown initiated...
+2022-12-12T16:46:03.050+03:00  INFO 10692 --- [Thread-63] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown completed.
+2022-12-12T16:46:03.115+03:00  INFO 10692 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Starting KodluyoruzSpringBootApplication using Java 17.0.1 with PID 10692 (C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot\target\classes started by makif in C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot)
+2022-12-12T16:46:03.115+03:00  INFO 10692 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-12-12T16:46:03.317+03:00  INFO 10692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:46:03.317+03:00  INFO 10692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-12T16:46:03.321+03:00  INFO 10692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2022-12-12T16:46:03.323+03:00  INFO 10692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:46:03.323+03:00  INFO 10692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-12T16:46:03.324+03:00  INFO 10692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2022-12-12T16:46:03.391+03:00  INFO 10692 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-12T16:46:03.391+03:00  INFO 10692 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-12T16:46:03.392+03:00  INFO 10692 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-12T16:46:03.417+03:00  INFO 10692 --- [restartedMain] o.a.c.c.C.[Tomcat-9].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-12-12T16:46:03.417+03:00  INFO 10692 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 300 ms
+2022-12-12T16:46:03.436+03:00  INFO 10692 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Starting...
+2022-12-12T16:46:03.442+03:00  INFO 10692 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-19 - Added connection conn109: url=jdbc:h2:file:/.memory.persist/denemedb user=ROOT
+2022-12-12T16:46:03.442+03:00  INFO 10692 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Start completed.
+2022-12-12T16:46:03.443+03:00  INFO 10692 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/.memory.persist/denemedb'
+2022-12-12T16:46:03.470+03:00  INFO 10692 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-12T16:46:03.471+03:00  WARN 10692 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-12T16:46:03.474+03:00  INFO 10692 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-12T16:46:03.481+03:00  INFO 10692 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-12T16:46:03.481+03:00  INFO 10692 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:46:03.486+03:00  INFO 10692 --- [restartedMain] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean başlamadan önce ben varım
+2022-12-12T16:46:03.500+03:00  WARN 10692 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-12T16:46:03.878+03:00  INFO 10692 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-12T16:46:03.880+03:00  INFO 10692 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-12T16:46:03.908+03:00  INFO 10692 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-12T16:46:03.914+03:00  INFO 10692 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Started KodluyoruzSpringBootApplication in 0.822 seconds (process running for 4977.02)
+2022-12-12T16:46:03.916+03:00  INFO 10692 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-12-12T16:46:54.649+03:00  INFO 10692 --- [SpringApplicationShutdownHook] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean bittikten sonra ben varım
+2022-12-12T16:46:54.650+03:00  INFO 10692 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:46:54.650+03:00  INFO 10692 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown initiated...
+2022-12-12T16:46:54.651+03:00  INFO 10692 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown completed.
+2022-12-12T16:46:57.797+03:00  INFO 24812 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Starting KodluyoruzSpringBootApplication using Java 17.0.1 with PID 24812 (C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot\target\classes started by makif in C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot)
+2022-12-12T16:46:57.797+03:00  INFO 24812 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-12-12T16:46:57.861+03:00  INFO 24812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-12T16:46:57.861+03:00  INFO 24812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-12T16:46:59.654+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:46:59.654+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-12T16:46:59.687+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JDBC repository interfaces.
+2022-12-12T16:46:59.702+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:46:59.702+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-12T16:46:59.709+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-12-12T16:47:00.791+03:00  INFO 24812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-12T16:47:00.807+03:00  INFO 24812 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-12T16:47:00.807+03:00  INFO 24812 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-12T16:47:00.903+03:00  INFO 24812 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-12T16:47:00.903+03:00  INFO 24812 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3042 ms
+2022-12-12T16:47:01.047+03:00  INFO 24812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-12T16:47:01.320+03:00  INFO 24812 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/.memory.persist/denemedb user=ROOT
+2022-12-12T16:47:01.335+03:00  INFO 24812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-12T16:47:01.335+03:00  INFO 24812 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/.memory.persist/denemedb'
+2022-12-12T16:47:01.475+03:00  INFO 24812 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-12T16:47:01.511+03:00  INFO 24812 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-12T16:47:01.655+03:00  WARN 24812 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-12T16:47:01.752+03:00  INFO 24812 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-12T16:47:01.975+03:00  INFO 24812 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-12T16:47:01.975+03:00  INFO 24812 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:47:02.008+03:00  INFO 24812 --- [restartedMain] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean başlamadan önce ben varım
+2022-12-12T16:47:02.041+03:00  WARN 24812 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-12T16:47:02.750+03:00  INFO 24812 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-12T16:47:02.755+03:00  INFO 24812 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-12T16:47:02.818+03:00  INFO 24812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-12T16:47:02.831+03:00  INFO 24812 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Started KodluyoruzSpringBootApplication in 5.493 seconds (process running for 6.113)
+2022-12-12T16:47:02.936+03:00  INFO 24812 --- [RMI TCP Connection(5)-192.168.1.40] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-12T16:47:02.937+03:00  INFO 24812 --- [RMI TCP Connection(5)-192.168.1.40] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-12T16:47:02.939+03:00  INFO 24812 --- [RMI TCP Connection(5)-192.168.1.40] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-12T16:48:19.341+03:00  INFO 24812 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2022-12-12T16:48:19.356+03:00  INFO 24812 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-12T16:48:19.358+03:00  INFO 24812 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-12T16:48:19.365+03:00  INFO 24812 --- [Thread-6] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean bittikten sonra ben varım
+2022-12-12T16:48:19.365+03:00  INFO 24812 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:48:19.368+03:00  INFO 24812 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-12T16:48:19.381+03:00  INFO 24812 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-12T16:48:19.481+03:00  INFO 24812 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Starting KodluyoruzSpringBootApplication using Java 17.0.1 with PID 24812 (C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot\target\classes started by makif in C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot)
+2022-12-12T16:48:19.482+03:00  INFO 24812 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-12-12T16:48:19.787+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:48:19.787+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-12T16:48:19.789+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2022-12-12T16:48:19.792+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:48:19.792+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-12T16:48:19.794+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2022-12-12T16:48:19.854+03:00  INFO 24812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-12T16:48:19.855+03:00  INFO 24812 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-12T16:48:19.855+03:00  INFO 24812 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-12T16:48:19.869+03:00  INFO 24812 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-12T16:48:19.869+03:00  INFO 24812 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 384 ms
+2022-12-12T16:48:19.889+03:00  INFO 24812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-12-12T16:48:19.896+03:00  INFO 24812 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:file:/.memory.persist/denemedb user=ROOT
+2022-12-12T16:48:19.896+03:00  INFO 24812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-12-12T16:48:19.896+03:00  INFO 24812 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/.memory.persist/denemedb'
+2022-12-12T16:48:19.925+03:00  INFO 24812 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-12T16:48:19.928+03:00  WARN 24812 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-12T16:48:19.931+03:00  INFO 24812 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-12T16:48:19.937+03:00  INFO 24812 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-12T16:48:19.937+03:00  INFO 24812 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:48:19.944+03:00  INFO 24812 --- [restartedMain] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean başlamadan önce ben varım
+2022-12-12T16:48:19.963+03:00  WARN 24812 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-12T16:48:20.308+03:00  INFO 24812 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-12T16:48:20.311+03:00  INFO 24812 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-12T16:48:20.330+03:00  INFO 24812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-12T16:48:20.337+03:00  INFO 24812 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Started KodluyoruzSpringBootApplication in 0.9 seconds (process running for 83.619)
+2022-12-12T16:48:20.339+03:00  INFO 24812 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-12-12T16:48:34.933+03:00  INFO 24812 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-12T16:48:34.951+03:00  INFO 24812 --- [Thread-8] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-12T16:48:34.955+03:00  INFO 24812 --- [Thread-8] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean bittikten sonra ben varım
+2022-12-12T16:48:34.955+03:00  INFO 24812 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:48:34.957+03:00  INFO 24812 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-12-12T16:48:34.969+03:00  INFO 24812 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-12-12T16:48:35.053+03:00  INFO 24812 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Starting KodluyoruzSpringBootApplication using Java 17.0.1 with PID 24812 (C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot\target\classes started by makif in C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot)
+2022-12-12T16:48:35.054+03:00  INFO 24812 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-12-12T16:48:35.503+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:48:35.503+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-12T16:48:35.506+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2022-12-12T16:48:35.508+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:48:35.509+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-12T16:48:35.510+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2022-12-12T16:48:35.603+03:00  INFO 24812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-12T16:48:35.604+03:00  INFO 24812 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-12T16:48:35.604+03:00  INFO 24812 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-12T16:48:35.619+03:00  INFO 24812 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-12T16:48:35.619+03:00  INFO 24812 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 562 ms
+2022-12-12T16:48:35.640+03:00  INFO 24812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-12-12T16:48:35.647+03:00  INFO 24812 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:file:/.memory.persist/denemedb user=ROOT
+2022-12-12T16:48:35.647+03:00  INFO 24812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-12-12T16:48:35.647+03:00  INFO 24812 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/.memory.persist/denemedb'
+2022-12-12T16:48:35.678+03:00  INFO 24812 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-12T16:48:35.681+03:00  WARN 24812 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-12T16:48:35.685+03:00  INFO 24812 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-12T16:48:35.694+03:00  INFO 24812 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-12T16:48:35.694+03:00  INFO 24812 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:48:35.701+03:00  INFO 24812 --- [restartedMain] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean başlamadan önce ben varım
+2022-12-12T16:48:35.726+03:00  WARN 24812 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-12T16:48:36.131+03:00  INFO 24812 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-12T16:48:36.150+03:00  INFO 24812 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-12T16:48:36.168+03:00  INFO 24812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-12T16:48:36.175+03:00  INFO 24812 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Started KodluyoruzSpringBootApplication in 1.157 seconds (process running for 99.457)
+2022-12-12T16:48:36.177+03:00  INFO 24812 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-12-12T16:48:46.812+03:00  INFO 24812 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-12T16:48:46.823+03:00  INFO 24812 --- [Thread-12] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-12T16:48:46.827+03:00  INFO 24812 --- [Thread-12] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean bittikten sonra ben varım
+2022-12-12T16:48:46.827+03:00  INFO 24812 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:48:46.828+03:00  INFO 24812 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-12-12T16:48:46.840+03:00  INFO 24812 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-12-12T16:48:46.911+03:00  INFO 24812 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Starting KodluyoruzSpringBootApplication using Java 17.0.1 with PID 24812 (C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot\target\classes started by makif in C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot)
+2022-12-12T16:48:46.911+03:00  INFO 24812 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-12-12T16:48:47.122+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:48:47.122+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-12T16:48:47.122+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2022-12-12T16:48:47.122+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:48:47.122+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-12T16:48:47.122+03:00  INFO 24812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2022-12-12T16:48:47.186+03:00  INFO 24812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-12T16:48:47.186+03:00  INFO 24812 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-12T16:48:47.186+03:00  INFO 24812 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-12T16:48:47.212+03:00  INFO 24812 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-12T16:48:47.212+03:00  INFO 24812 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 300 ms
+2022-12-12T16:48:47.235+03:00  INFO 24812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-12-12T16:48:47.243+03:00  INFO 24812 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn30: url=jdbc:h2:file:/.memory.persist/denemedb user=ROOT
+2022-12-12T16:48:47.243+03:00  INFO 24812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-12-12T16:48:47.244+03:00  INFO 24812 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/.memory.persist/denemedb'
+2022-12-12T16:48:47.276+03:00  INFO 24812 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-12T16:48:47.279+03:00  WARN 24812 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-12T16:48:47.284+03:00  INFO 24812 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-12T16:48:47.292+03:00  INFO 24812 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-12T16:48:47.293+03:00  INFO 24812 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:48:47.300+03:00  INFO 24812 --- [restartedMain] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean başlamadan önce ben varım
+2022-12-12T16:48:47.314+03:00  WARN 24812 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-12T16:48:47.691+03:00  INFO 24812 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-12T16:48:47.694+03:00  INFO 24812 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-12T16:48:47.714+03:00  INFO 24812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-12T16:48:47.721+03:00  INFO 24812 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Started KodluyoruzSpringBootApplication in 0.83 seconds (process running for 111.003)
+2022-12-12T16:48:47.723+03:00  INFO 24812 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-12-12T16:48:59.162+03:00  INFO 24812 --- [SpringApplicationShutdownHook] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean bittikten sonra ben varım
+2022-12-12T16:48:59.162+03:00  INFO 24812 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:48:59.163+03:00  INFO 24812 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-12-12T16:48:59.163+03:00  INFO 24812 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-12-12T16:49:02.729+03:00  INFO 27176 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Starting KodluyoruzSpringBootApplication using Java 17.0.1 with PID 27176 (C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot\target\classes started by makif in C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot)
+2022-12-12T16:49:02.730+03:00  INFO 27176 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-12-12T16:49:02.766+03:00  INFO 27176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-12T16:49:02.767+03:00  INFO 27176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-12T16:49:04.142+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:49:04.144+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-12T16:49:04.163+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2022-12-12T16:49:04.170+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:49:04.174+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-12T16:49:04.182+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2022-12-12T16:49:05.015+03:00  INFO 27176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-12T16:49:05.028+03:00  INFO 27176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-12T16:49:05.029+03:00  INFO 27176 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-12T16:49:05.119+03:00  INFO 27176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-12T16:49:05.120+03:00  INFO 27176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2352 ms
+2022-12-12T16:49:05.284+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-12T16:49:05.652+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/.memory.persist/denemedb user=ROOT
+2022-12-12T16:49:05.657+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-12T16:49:05.674+03:00  INFO 27176 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/.memory.persist/denemedb'
+2022-12-12T16:49:05.895+03:00  INFO 27176 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-12T16:49:05.956+03:00  INFO 27176 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-12T16:49:06.161+03:00  WARN 27176 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-12T16:49:06.299+03:00  INFO 27176 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-12T16:49:06.542+03:00  INFO 27176 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-12T16:49:06.550+03:00  INFO 27176 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:49:06.583+03:00  INFO 27176 --- [restartedMain] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean başlamadan önce ben varım
+2022-12-12T16:49:06.616+03:00  WARN 27176 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-12T16:49:07.313+03:00  INFO 27176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-12T16:49:07.317+03:00  INFO 27176 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-12T16:49:07.373+03:00  INFO 27176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-12T16:49:07.388+03:00  INFO 27176 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Started KodluyoruzSpringBootApplication in 4.981 seconds (process running for 6.05)
+2022-12-12T16:49:07.992+03:00  INFO 27176 --- [RMI TCP Connection(2)-192.168.1.40] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-12T16:49:07.992+03:00  INFO 27176 --- [RMI TCP Connection(2)-192.168.1.40] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-12T16:49:07.994+03:00  INFO 27176 --- [RMI TCP Connection(2)-192.168.1.40] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-12-12T16:50:48.166+03:00  INFO 27176 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 8 class path changes (4 additions, 4 deletions, 0 modifications)
+2022-12-12T16:50:48.180+03:00  INFO 27176 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-12T16:50:48.181+03:00  INFO 27176 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-12T16:50:48.188+03:00  INFO 27176 --- [Thread-6] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean bittikten sonra ben varım
+2022-12-12T16:50:48.188+03:00  INFO 27176 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:50:48.191+03:00  INFO 27176 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-12T16:50:48.208+03:00  INFO 27176 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-12T16:50:48.272+03:00  INFO 27176 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Starting KodluyoruzSpringBootApplication using Java 17.0.1 with PID 27176 (C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot\target\classes started by makif in C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot)
+2022-12-12T16:50:48.272+03:00  INFO 27176 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-12-12T16:50:48.523+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:50:48.523+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-12T16:50:48.524+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2022-12-12T16:50:48.527+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:50:48.527+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-12T16:50:48.528+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2022-12-12T16:50:48.600+03:00  INFO 27176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-12T16:50:48.600+03:00  INFO 27176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-12T16:50:48.601+03:00  INFO 27176 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-12T16:50:48.614+03:00  INFO 27176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-12T16:50:48.615+03:00  INFO 27176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 341 ms
+2022-12-12T16:50:48.632+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-12-12T16:50:48.638+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:file:/.memory.persist/denemedb user=ROOT
+2022-12-12T16:50:48.638+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-12-12T16:50:48.638+03:00  INFO 27176 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/.memory.persist/denemedb'
+2022-12-12T16:50:48.663+03:00  INFO 27176 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-12T16:50:48.665+03:00  WARN 27176 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-12T16:50:48.668+03:00  INFO 27176 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-12T16:50:48.674+03:00  INFO 27176 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-12T16:50:48.675+03:00  INFO 27176 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:50:48.680+03:00  INFO 27176 --- [restartedMain] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean başlamadan önce ben varım
+2022-12-12T16:50:48.692+03:00  WARN 27176 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-12T16:50:48.967+03:00  INFO 27176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-12T16:50:48.969+03:00  INFO 27176 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-12T16:50:48.984+03:00  INFO 27176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-12T16:50:48.992+03:00  INFO 27176 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Started KodluyoruzSpringBootApplication in 0.743 seconds (process running for 107.653)
+2022-12-12T16:50:48.994+03:00  INFO 27176 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-12-12T16:51:16.785+03:00  INFO 27176 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-12T16:51:16.785+03:00  INFO 27176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-12T16:51:16.787+03:00  INFO 27176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-12-12T16:59:51.854+03:00  INFO 27176 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-12-12T16:59:51.868+03:00  INFO 27176 --- [Thread-8] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-12T16:59:51.869+03:00  INFO 27176 --- [Thread-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-12T16:59:51.874+03:00  INFO 27176 --- [Thread-8] c.may.kodluyoruzspringboot.dto.BeanDto   : Bean bittikten sonra ben varım
+2022-12-12T16:59:51.874+03:00  INFO 27176 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:59:51.876+03:00  INFO 27176 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-12-12T16:59:51.891+03:00  INFO 27176 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-12-12T16:59:51.968+03:00  INFO 27176 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Starting KodluyoruzSpringBootApplication using Java 17.0.1 with PID 27176 (C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot\target\classes started by makif in C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot)
+2022-12-12T16:59:51.969+03:00  INFO 27176 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-12-12T16:59:52.246+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:59:52.246+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-12T16:59:52.249+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2022-12-12T16:59:52.253+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:59:52.254+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-12T16:59:52.255+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2022-12-12T16:59:52.348+03:00  INFO 27176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-12T16:59:52.348+03:00  INFO 27176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-12T16:59:52.348+03:00  INFO 27176 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-12T16:59:52.365+03:00  INFO 27176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-12T16:59:52.365+03:00  INFO 27176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 393 ms
+2022-12-12T16:59:52.396+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-12-12T16:59:52.404+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:file:/.memory.persist/denemedb user=ROOT
+2022-12-12T16:59:52.404+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-12-12T16:59:52.404+03:00  INFO 27176 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/.memory.persist/denemedb'
+2022-12-12T16:59:52.442+03:00  INFO 27176 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-12T16:59:52.446+03:00  WARN 27176 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-12T16:59:52.450+03:00  INFO 27176 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-12T16:59:52.459+03:00  INFO 27176 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-12T16:59:52.460+03:00  INFO 27176 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:59:52.467+03:00  WARN 27176 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beanPostConstruct': Unsatisfied dependency expressed through field 'logger': No qualifying bean of type 'java.util.logging.Logger' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-12-12T16:59:52.467+03:00  INFO 27176 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:59:52.468+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-12-12T16:59:52.482+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-12-12T16:59:52.483+03:00  INFO 27176 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-12T16:59:52.492+03:00  INFO 27176 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2022-12-12T16:59:52.513+03:00 ERROR 27176 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field logger in com.may.kodluyoruzspringboot.controller.BeanPostConstruct required a bean of type 'java.util.logging.Logger' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.util.logging.Logger' in your configuration.
+
+2022-12-12T16:59:53.959+03:00  INFO 27176 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Starting KodluyoruzSpringBootApplication using Java 17.0.1 with PID 27176 (C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot\target\classes started by makif in C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot)
+2022-12-12T16:59:53.960+03:00  INFO 27176 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-12-12T16:59:54.133+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:59:54.133+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-12T16:59:54.134+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2022-12-12T16:59:54.141+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T16:59:54.141+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-12T16:59:54.142+03:00  INFO 27176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2022-12-12T16:59:54.195+03:00  INFO 27176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-12T16:59:54.196+03:00  INFO 27176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-12T16:59:54.196+03:00  INFO 27176 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-12T16:59:54.210+03:00  INFO 27176 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-12-12T16:59:54.210+03:00  INFO 27176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 249 ms
+2022-12-12T16:59:54.227+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-12-12T16:59:54.232+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn21: url=jdbc:h2:file:/.memory.persist/denemedb user=ROOT

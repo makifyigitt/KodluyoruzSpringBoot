@@ -2,9 +2,11 @@ package com.may.kodluyoruzspringboot.controller;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 
 import java.util.logging.Logger;
 
+@Controller
 public class BeanPostConstruct {
 
     @Autowired
