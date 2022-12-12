@@ -4841,3 +4841,36 @@ Consider defining a bean of type 'java.util.logging.Logger' in your configuratio
 2022-12-12T16:59:54.210+03:00  INFO 27176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 249 ms
 2022-12-12T16:59:54.227+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
 2022-12-12T16:59:54.232+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn21: url=jdbc:h2:file:/.memory.persist/denemedb user=ROOT
+2022-12-12T16:59:54.233+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-12-12T16:59:54.233+03:00  INFO 27176 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/.memory.persist/denemedb'
+2022-12-12T16:59:54.255+03:00  INFO 27176 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-12T16:59:54.257+03:00  WARN 27176 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-12T16:59:54.260+03:00  INFO 27176 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-12T16:59:54.265+03:00  INFO 27176 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-12T16:59:54.266+03:00  INFO 27176 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:59:54.269+03:00  WARN 27176 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beanPostConstruct': Unsatisfied dependency expressed through field 'logger': No qualifying bean of type 'java.util.logging.Logger' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-12-12T16:59:54.269+03:00  INFO 27176 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T16:59:54.269+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-12-12T16:59:54.272+03:00  INFO 27176 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-12-12T16:59:54.272+03:00  INFO 27176 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-12T16:59:54.279+03:00  INFO 27176 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2022-12-12T16:59:54.282+03:00 ERROR 27176 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field logger in com.may.kodluyoruzspringboot.controller.BeanPostConstruct required a bean of type 'java.util.logging.Logger' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.util.logging.Logger' in your configuration.
+
