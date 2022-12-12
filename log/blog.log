@@ -116,3 +116,72 @@
 2022-12-12T14:22:28.918+03:00  INFO 23024 --- [RMI TCP Connection(2)-192.168.1.40] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-12-12T14:22:28.918+03:00  INFO 23024 --- [RMI TCP Connection(2)-192.168.1.40] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2022-12-12T14:22:28.919+03:00  INFO 23024 --- [RMI TCP Connection(2)-192.168.1.40] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-12T14:29:01.424+03:00  INFO 23024 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-12T14:29:01.458+03:00  INFO 23024 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-12T14:29:01.459+03:00  INFO 23024 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-12T14:29:01.472+03:00  INFO 23024 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T14:29:01.686+03:00  WARN 23024 --- [Thread-6] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-12T14:29:01.687+03:00  INFO 23024 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-12T14:29:01.688+03:00  INFO 23024 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-12T14:29:01.760+03:00  INFO 23024 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Starting KodluyoruzSpringBootApplication using Java 17.0.1 with PID 23024 (C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot\target\classes started by makif in C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot)
+2022-12-12T14:29:01.760+03:00  INFO 23024 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-12-12T14:29:02.147+03:00  INFO 23024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T14:29:02.148+03:00  INFO 23024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-12T14:29:02.151+03:00  INFO 23024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2022-12-12T14:29:02.164+03:00  INFO 23024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T14:29:02.164+03:00  INFO 23024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-12T14:29:02.166+03:00  INFO 23024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2022-12-12T14:29:02.368+03:00  INFO 23024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-12T14:29:02.371+03:00  INFO 23024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-12T14:29:02.371+03:00  INFO 23024 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-12T14:29:02.403+03:00  INFO 23024 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-12T14:29:02.403+03:00  INFO 23024 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 641 ms
+2022-12-12T14:29:02.462+03:00  INFO 23024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-12-12T14:29:02.465+03:00  INFO 23024 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:deneme user=ROOT
+2022-12-12T14:29:02.465+03:00  INFO 23024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-12-12T14:29:02.465+03:00  INFO 23024 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deneme'
+2022-12-12T14:29:02.531+03:00  INFO 23024 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-12T14:29:02.539+03:00  WARN 23024 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-12T14:29:02.545+03:00  INFO 23024 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-12T14:29:02.557+03:00  INFO 23024 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-12T14:29:02.557+03:00  INFO 23024 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T14:29:02.581+03:00  WARN 23024 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-12T14:29:02.934+03:00  INFO 23024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-12T14:29:02.936+03:00  INFO 23024 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-12T14:29:02.955+03:00  INFO 23024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-12T14:29:02.962+03:00  INFO 23024 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Started KodluyoruzSpringBootApplication in 1.228 seconds (process running for 399.289)
+2022-12-12T14:29:02.964+03:00  INFO 23024 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-12-12T14:29:41.892+03:00  INFO 23024 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-12T14:29:41.904+03:00  INFO 23024 --- [Thread-8] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-12T14:29:41.909+03:00  INFO 23024 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T14:29:42.112+03:00  WARN 23024 --- [Thread-8] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-12T14:29:42.115+03:00  INFO 23024 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-12-12T14:29:42.116+03:00  INFO 23024 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-12-12T14:29:42.182+03:00  INFO 23024 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Starting KodluyoruzSpringBootApplication using Java 17.0.1 with PID 23024 (C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot\target\classes started by makif in C:\Users\makif\IdeaProjects\KodluyoruzSpringBoot)
+2022-12-12T14:29:42.182+03:00  INFO 23024 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-12-12T14:29:42.446+03:00  INFO 23024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T14:29:42.446+03:00  INFO 23024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-12T14:29:42.447+03:00  INFO 23024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2022-12-12T14:29:42.450+03:00  INFO 23024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-12T14:29:42.450+03:00  INFO 23024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-12T14:29:42.450+03:00  INFO 23024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2022-12-12T14:29:42.509+03:00  INFO 23024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-12T14:29:42.509+03:00  INFO 23024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-12T14:29:42.509+03:00  INFO 23024 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-12T14:29:42.523+03:00  INFO 23024 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-12T14:29:42.524+03:00  INFO 23024 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 340 ms
+2022-12-12T14:29:42.541+03:00  INFO 23024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-12-12T14:29:42.573+03:00  INFO 23024 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:file:/.memory.persist/denemedb user=ROOT
+2022-12-12T14:29:42.573+03:00  INFO 23024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-12-12T14:29:42.573+03:00  INFO 23024 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/.memory.persist/denemedb'
+2022-12-12T14:29:42.597+03:00  INFO 23024 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-12T14:29:42.599+03:00  WARN 23024 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-12T14:29:42.602+03:00  INFO 23024 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-12T14:29:42.608+03:00  INFO 23024 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-12T14:29:42.608+03:00  INFO 23024 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-12T14:29:42.622+03:00  WARN 23024 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-12T14:29:42.928+03:00  INFO 23024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-12T14:29:42.935+03:00  INFO 23024 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-12T14:29:42.958+03:00  INFO 23024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-12T14:29:42.965+03:00  INFO 23024 --- [restartedMain] c.m.k.KodluyoruzSpringBootApplication    : Started KodluyoruzSpringBootApplication in 0.806 seconds (process running for 439.291)
+2022-12-12T14:29:42.967+03:00  INFO 23024 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
